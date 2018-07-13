@@ -20,7 +20,7 @@
       <p><font color="red">Note: The excel file select should have column names matching to what they're defined in task presenter code.</font></p>
       </span>
       <div class="form-actions">
-         <input type="file" name="file" accept=".csv"><br/><br/>
+         <input type="file" name="file" accept=".xlsx"><br/><br/>
          <input id="submit" type="submit" value="{{_('Import')}}" class="btn btn-primary" >
          <a href="{{ url_for('project.tasks', short_name=project.short_name) }}" class="btn">{{_('Cancel')}}</a>
       </div>
